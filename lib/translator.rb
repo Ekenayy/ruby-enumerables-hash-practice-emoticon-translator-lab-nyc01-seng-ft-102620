@@ -47,7 +47,7 @@ def get_japanese_emoticon(file_path, english_emoticon)
    load_library = load_library(file_path)
    emoji_array = []
    
-   load_library.do each |key, value|
+   load_library.each do |key, value|
    binding.pry
  end
    
