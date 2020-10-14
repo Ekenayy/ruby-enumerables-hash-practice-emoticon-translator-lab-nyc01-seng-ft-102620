@@ -49,6 +49,7 @@ def get_japanese_emoticon(file_path, english_emoticon)
    
    load_library.each do |key, value|
      value.each do |language, emoji|
+       emoji_array << load_library[key][:english]
    binding.pry
  end
  end
