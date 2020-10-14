@@ -51,6 +51,7 @@ def get_japanese_emoticon(file_path, english_emoticon)
      value.each do |language, emoji|
    binding.pry
  end
+ end
    
 end
 
