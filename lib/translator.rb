@@ -51,7 +51,7 @@ def get_japanese_emoticon(file_path, english_emoticon)
      value.each do |language, emoji|
        emoji_array << load_library[key][:english]
        if value.has_value?(english_emoticon)
-         #japanese_result = key.values_at[value]
+         #japanese_result = load_library[key][:japanese]
             binding.pry
        end
  end
