@@ -52,6 +52,7 @@ def get_japanese_emoticon(file_path, english_emoticon)
        emoji_array << load_library[key][:english]
        if value.has_value?(english_emoticon)
          japanese_result = key.values_at[:japanese]
+       end
    binding.pry
  end
  end
