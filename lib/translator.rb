@@ -43,7 +43,8 @@ load_library.each do |key, value|
   
 end
 
-#def get_japanese_emoticon
-  # code goes here
-#end
+def get_japanese_emoticon
+   load_library = load_library(file_Path)
+   
+end
 
