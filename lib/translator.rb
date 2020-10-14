@@ -52,10 +52,14 @@ def get_japanese_emoticon(file_path, english_emoticon)
        emoji_array << load_library[key][:english]
        if value.has_value?(english_emoticon)
          japanese_result = load_library[key][:japanese]
-            binding.pry
+          return japanese_result
        end
  end
  end
+ 
+    if !emoji_array.include? english_emoticon
+    return "Sorry, that emoticon was not found"
+  end
    
 end
 
